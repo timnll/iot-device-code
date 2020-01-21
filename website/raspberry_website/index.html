@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Données utilisateur</title>
+</head>
+
+<body>
+    <form method="post" action="/data">
+        <h1>Données utilisateur</h1>
+        <p>
+            <label for="cookies">JSESSIONID</label> :
+            <input type="text" name="cookie" id="cookie" required>
+        </p>
+        <p>
+            <label for="token">VCAP_ID</label> :
+            <input type="text" name="token" id="token" required>
+        </p>
+        <p>
+            <label for="email">EMAIL</label> :
+            <input type="text" name="email" id="email" required>
+        </p>
+        <input type="submit" value="Envoyer">
+    </form>
+</body>
+
+</html>

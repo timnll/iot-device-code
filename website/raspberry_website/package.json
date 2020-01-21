@@ -1,0 +1,16 @@
+{
+  "name": "deloitte-iot",
+  "version": "1.0.0",
+  "description": "Website for the raspberry pi in Deloitte",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jbbenoist",
+  "license": "ISC",
+  "dependencies": {
+    "child-process": "^1.0.2",
+    "express": "^4.17.1",
+    "cookie-parser":"^1.4.4"
+  }
+}

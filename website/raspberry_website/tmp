@@ -1,0 +1,11 @@
+https://stackoverflow.com/questions/7627113/save-the-console-log-in-chrome-to-a-file
+http://www.chromium.org/for-testers/enable-logging
+https://chromium.googlesource.com/chromium/src/+/master/docs/user_data_dir.md
+
+cd ~/.config/google-chrome
+grep "Cookie :" chrome_debug.log
+
+Faire un petit script bash qui actualise en continue et dès que quelque chose est grep on lance le script
+Modifier la redirection que si on fait un diff et qu'il y a une différence
+
+https://www.parlonsgeek.com/un-tunnel-ngrok-pour-rendre-votre-localhost-publique/
